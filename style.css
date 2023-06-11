@@ -16,7 +16,7 @@ body{
   text-decoration: underline;
   }
   
-  .titulo{font-size: 100px; color: #000000; text-align: center;margin-top: -7%}
+  .titulo{font-size: 60px; color: #000000; text-align: center;margin-top: -7%}
   
   h1{
     font-family: inherit; text-align: center; color:#000000; border: 10px solid #502901;
@@ -32,7 +32,12 @@ body{
   }
 
   .logoimg{
-    width: 7%;
+    width: 9%;
     margin-left: 0%;
+    }
+
+    .ciculo{
+      width: 35%;
+    margin-block-end: 10%;
     }
   
