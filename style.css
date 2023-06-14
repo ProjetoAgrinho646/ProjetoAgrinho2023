@@ -2,12 +2,18 @@ body{
     background-color: #A66423
   }
   header{
-    background-color: #2C7521
+    position: absolute;
+    width: 1440px;
+    height: 244px;
+    left: 0px;
+    top: 0px;
+    
+    background: #2C7521;
   }
   
   nav li{
     display: inline-block;
-    margin: 0 0 0 200px;
+    margin: 0 0 0 330px;
     text-transform: uppercase;
   }
   
@@ -16,7 +22,19 @@ body{
   text-decoration: underline;
   }
   
-  .titulo{font-size: 60px; color: #000000; text-align: center;margin-top: -7%}
+  .titulo{
+    position: absolute;
+width: 1065px;
+height: 65px;
+left: 263px;
+top: 76px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 77px;
+  }
   
   h1{
     font-family: inherit; text-align: center; color:#000000; border: 10px solid #502901;
@@ -32,12 +50,24 @@ body{
   }
 
   .logoimg{
-    width: 9%;
-    margin-left: 0%;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    Left: 0px;
+    top: 0px;
     }
 
     .ciculo{
       width: 35%;
-    margin-block-end: 10%;
+    margin-left: 17%;
     }
-  
+
+.gráfico{
+  width: 40%;
+  margin-left: 17%;
+}
+
+iframe{
+  width: 29%;
+  margin-left: 35%;
+}
